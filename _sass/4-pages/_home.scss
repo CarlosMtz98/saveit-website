@@ -51,6 +51,89 @@
 
 }
 
+.home-team {
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+
+    .teammates-wrap {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0 0;
+
+        .teammates-row {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            width: 100%;
+            position: relative;
+            justify-content: center;
+            margin: 60px auto;
+
+            .teammate {
+                display: flex;
+                margin: 0 5%;
+                align-items: center;
+                flex-direction: column;
+                
+
+                .teammate-avatar {
+                    width: 140px;
+                    height: 140px;
+                    border-radius: 5%;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .teammate-info {
+                    padding-top: 10px;
+                    h5 {
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 500;
+                        text-align: center;
+                        margin: 5px auto 0;
+                        line-height: 1;
+                    }
+                    p {
+                        color: white;
+                        font-weight: 600;
+                        text-align: center;
+                        margin: 5px auto 0;
+                        line-height: 1;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+
+    .team-bg {
+        background-image: url('../img/home/tec.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .team-color-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $primary-color;
+        opacity: .80;
+        z-index: 1;
+    }
+}
+
 .home-contact {
     height: 90vh;
     min-height: 850px;

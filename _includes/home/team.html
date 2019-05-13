@@ -1,8 +1,27 @@
 <div class="home-team page-section">
     <div class="container">
-        <div class="section-title">
-            <h2>Nuestro Equipo</h2>
+        <div class="section-title text-color-white">
+            <h2 class="text-color-white">Nuestro Equipo</h2>
             <span></span>
+            <p>El equipo de saveit esta lleno de gente talentosa y creativa. Todos nuestros integrantes son destacados alumnos del Tecnológico de Monterrey.</p>
+        </div>
+        <div class="teammates-wrap">
+            {% for row in site.data.team.teammates %}
+                <div class="teammates-row">
+
+                    {% for teammate in row.items %}
+                        <div class="teammate">
+                            <div class="teammate-avatar" style="background-image: url('/assets/img/team/{{ teammate.avatar }}')"></div>
+                            <div class="teammate-info">
+                                <h5>{{ teammate.name }}</h5>
+                                <p>{{ teammate.major }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
         </div>
     </div>
+    <div class="team-color-bg"></div>
+    <div class="team-bg"></div>
 </div>

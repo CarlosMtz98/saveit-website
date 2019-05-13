@@ -1,0 +1,27 @@
+teammates: 
+  - row: 
+    items:
+      - name: Paola Minor
+        major: LAD
+        avatar: pao.jpg
+
+      - name: Daniela Zamarripa
+        major: LAD
+    
+      - name: Fátima Lee
+        major: LCMD
+
+  - row: 
+    items:
+      - name: Carlos Mrtínez
+        major: ISC
+        avatar: cmr.jpg
+    
+      - name: Ferando Melgar
+        major: ISC
+      
+      - name: Victor Sánchez
+        major: ISC
+      
+      - name: Victor Curiel
+        major: ISC
