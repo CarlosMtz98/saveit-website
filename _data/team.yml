@@ -5,11 +5,13 @@ teammates:
         major: LAD
         avatar: pao.jpg
 
-      - name: Daniela Zamarripa
-        major: LAD
-    
       - name: Fátima Lee
         major: LCMD
+        avatar: fatima.jpg
+
+      - name: Daniela Zamarripa
+        major: LAD
+        avatar: daniela.jpg
 
   - row: 
     items:

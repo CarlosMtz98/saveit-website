@@ -51,6 +51,53 @@
 
 }
 
+.home-features {
+    
+    .features-wrap {
+        width: 100%;
+        margin: 80px auto 10px;
+        position: relative;
+
+        .feature-row {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 80px;
+
+            .feature-item {
+                width: 45%;
+                min-width: 320px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+
+                .item-icon {
+                    min-width: 60px;
+                    height: 60px;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+
+                .item-info {
+                    margin-left: 30px;
+
+                    h5 {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+                }
+
+            }
+
+
+        }
+
+    }
+}
+
 .home-team {
     width: 100%;
     min-height: 600px;
@@ -182,6 +229,12 @@
             h4 {
                 margin-top: 0;
             }   
+        }
+
+        .contact-form {
+            .btn {
+                margin: 20px 0 20px auto;
+            }
         }
 
         .form-row {
