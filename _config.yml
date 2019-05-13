@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: saveit
 email: mail@yourmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "carlosmtz98.github.io/saveit-website/" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
