@@ -23,7 +23,7 @@
                 width: 140px;
                 background-position: center;
                 background-repeat: no-repeat;
-                background-image: url('../img/brand/saveit-logo.png');
+                background-image: url('../img/brand/saveit-logo-white.png');
                 background-size: contain; 
             }
         }
@@ -44,6 +44,25 @@
 
                 &:hover {
                     background-color: $accent;
+                    transition: all 300ms ease-in-out;
+                }
+            }
+        }
+    }
+
+    &.scrolled {
+        background-color: #fff !important;
+        transition: background-color 200ms linear;
+
+        .nav-logo {    
+            background-image: url('../img/brand/saveit-logo.png') !important;
+        }
+
+        .nav {
+            li a {
+                color: $primary-color;
+                &:hover {
+                    color: white;
                     transition: all 300ms ease-in-out;
                 }
             }
