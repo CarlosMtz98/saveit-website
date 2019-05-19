@@ -21,9 +21,12 @@ teammates:
     
       - name: Ferando Melgar
         major: ISC
+        avatar: fmm.jpg
       
       - name: Victor Sánchez
         major: ISC
+        avatar: vs.jpg
       
       - name: Victor Curiel
         major: ISC
+        avatar: vc.jpg
